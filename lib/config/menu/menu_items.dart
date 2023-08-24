@@ -18,6 +18,8 @@ class MenuItem {
 
 const appMenuItems = <MenuItem> [
 
+  // este MenuItems lo que hace es crear la opción en el menu
+
   MenuItem(
     title: 'Botones', 
     subTitle: 'Varios botones en Flutter', 
@@ -30,6 +32,13 @@ const appMenuItems = <MenuItem> [
     subTitle: 'Un contenedor estilizado', 
     link: '/cards', 
     icon: Icons.credit_card,
+  ),
+
+  MenuItem(
+    title: 'ProgressIndicators', 
+    subTitle: 'Generales y controlados', 
+    link: '/progress', 
+    icon: Icons.refresh_rounded,
   ),
 
 ];
