@@ -21,6 +21,13 @@ const appMenuItems = <MenuItem> [
   // este MenuItems lo que hace es crear la opción en el menu
 
   MenuItem(
+    title: 'Riverpood Counter', 
+    subTitle: 'Introducción riverpood', 
+    link: '/counter', 
+    icon: Icons.calculate,
+  ),
+  
+  MenuItem(
     title: 'Botones', 
     subTitle: 'Varios botones en Flutter', 
     link: '/buttons', 
@@ -75,5 +82,7 @@ const appMenuItems = <MenuItem> [
     link: '/infinite', 
     icon: Icons.list_alt_rounded,
   ),
+
+  
 
 ];

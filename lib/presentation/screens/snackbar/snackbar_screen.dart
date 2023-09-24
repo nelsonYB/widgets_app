@@ -44,7 +44,7 @@ class SnackbarScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Snackbars y Diálogos'),
+        title: const Text('Snackbars y Diálogos'),
       ),
 
       body: Center(
